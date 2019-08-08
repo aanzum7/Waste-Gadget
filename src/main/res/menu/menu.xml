@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sellwastepaper.MainActivity">
+
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="300"
+        android:title="User"
+        android:icon="@drawable/ic_add_circle_black_24dp"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+    <item
+        android:id="@+id/action_favorite"
+        android:orderInCategory="300"
+        android:title="User"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        app:showAsAction="ifRoom">
+
+        <menu xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:HTMLCode="http://schemas.android.com/apk/res-auto" >
+
+            <!--<item
+                android:id="@+id/history"
+                android:title="History"
+                android:icon="@drawable/ic_history_black_24dp"
+                HTMLCode:showAsAction="ifRoom|withText" />-->
+
+            <item
+                android:id="@+id/logout"
+                android:title="Logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                HTMLCode:showAsAction="ifRoom|withText" />
+        </menu>
+
+    </item>
+
+
+
+</menu>
